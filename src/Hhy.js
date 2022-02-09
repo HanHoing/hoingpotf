@@ -1,8 +1,10 @@
 import { Component } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { A11y, Navigation, Pagination, Scrollbar } from "swiper";
-import 'swiper/css';
 
+import 'swiper/css';
+import 'swiper/css/navigation'; //양쪽 화살표
+import 'swiper/css/pagination'; //밑에 쩜쩜쩜 
 
 //절대경로 설정 
 import HOING from "./assets/img/hoing.png";
