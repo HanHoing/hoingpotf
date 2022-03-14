@@ -18,7 +18,7 @@ import CImage from "./assets/img/skills/certificate.png";
 import DImage from "./assets/img/skills/deployment.png";
 import FImage from "./assets/img/skills/front-end.png";
 import VImage from "./assets/img/skills/versioncontrol.png";
-import './css/styles.css';
+import './css/hhy.css';
 
 
 class HHY extends Component {
@@ -37,7 +37,7 @@ class HHY extends Component {
                 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
                 <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
                 {/* Core theme CSS (includes Bootstrap)*/}
-                <link href="css/styles.css" rel="stylesheet" />
+                <link href="css/hhy.css" rel="stylesheet" />
                 {/* Navigation*/}
                 <nav className="navbar navbar-expand-lg bg-secondary  fixed-top" id="mainNav">
                     <div className="container">
@@ -140,7 +140,7 @@ class HHY extends Component {
 
                 {/* ---------------------------------------------------------------- */}
                 {/* Projects Section*/}
-                <section className="page-section  " id="Projects">
+                <section className="page-section   " id="Projects">
                     <div className="container">
                         {/* Projects Section Heading*/}
                         <h2 className="page-section-heading text-center text-uppercase ">Projects</h2>
@@ -148,11 +148,12 @@ class HHY extends Component {
                         <div className="divider-custom">
                         </div>
                         {/* Projects Grid Items*/}
-                        <div className="row justify-content-center">
+                        <div className="text-center  row justify-content-center mx">
 
                             {/* Projects Item 1*/}
-                            <hr/><h2 className=" text-center">1. School Guide</h2> <hr/>
-                            <Swiper
+                            <hr/><h2 className=" text-center ">1. School Guide</h2> 
+                            <Swiper 
+                            
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={40}
                                 slidesPerView={1}
@@ -166,7 +167,7 @@ class HHY extends Component {
                                 <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
                                 <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
                             </Swiper>
-                            <div className="col-md-12 col-lg-12 mb-6">
+                            <div className="col-md-12 col-lg-12 mb-6 ">
                                 <div className="portfolio-item mx-auto" >
                                     <img className="img-fluid" src={EDIT} alt="..." />
                                 </div>
@@ -174,7 +175,7 @@ class HHY extends Component {
 
 
                             {/* Projects Item 2*/}
-                            <hr/><h2 className=" text-center">2. Smart Drive</h2> <hr/>
+                            <hr/><h2 className=" text-center">2. Smart Drive</h2>
                             <Swiper
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={50}
@@ -197,7 +198,7 @@ class HHY extends Component {
 
 
                             {/* Projects Item 3*/}
-                            <hr/> <h2 className=" text-center">3. Student Management</h2> <hr/>
+                            <hr/> <h2 className=" text-center">3. Student Management</h2> 
                             <Swiper
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={50}
@@ -220,7 +221,7 @@ class HHY extends Component {
 
 
                              {/* Projects Item 4*/}
-                             <hr/>   <h2 className=" text-center">4. 멍!트워크</h2>  <hr/>
+                             <hr/>   <h2 className=" text-center">4. 멍!트워크</h2> 
                             <Swiper
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={50}
